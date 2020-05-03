@@ -3,11 +3,37 @@
 footer {
 	bottom: 0;
 	height: 200px;
-	margin-top: 50px;
 }
 
 footer .container {
 	padding: 20px 10px;
+}
+
+hr {
+	margin-top: 40px;
+}
+
+.project-list {
+	padding: 50px 50px;
+}
+
+.project-preview {
+	height: 500px;
+	display: block;
+    margin: 20px auto;
+}
+
+.title {
+	text-align: center;
+}
+
+.card {
+	margin: 20px;
+	width: 16rem;
+}
+
+.badge {
+	color: white;
 }
 
 #welcome {
@@ -20,10 +46,6 @@ footer .container {
 	color: white;
 	padding: 100px 100px;
 	text-align: center;
-}
-
-#project-list {
-	padding: 50px 50px;
 }
 
 #tech-info {
@@ -40,12 +62,4 @@ footer .container {
 
 #content {
 	min-height: 500px;
-}
-
-.card {
-	width: 18rem;
-}
-
-.badge {
-	color: white;
 }
