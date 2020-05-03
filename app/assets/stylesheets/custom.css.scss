@@ -1,1 +1,37 @@
 @import 'bootstrap/dist/css/bootstrap';
+
+#welcome {
+	background-image: url("test.jpeg");
+	background-size: cover;
+	height: 500px;
+}
+
+#welcome .container {
+	color: white;
+	padding: 100px 100px;
+	text-align: center;
+}
+
+#project-list {
+	padding: 50px 50px;
+}
+
+#tech-info {
+	margin: 10px;
+}
+
+#rails {
+	background-color: #c20e0e;
+}
+
+#bootstrap {
+	background-color: #6f32a8;
+}
+
+.card {
+	width: 18rem;
+}
+
+.badge {
+	color: white;
+}
