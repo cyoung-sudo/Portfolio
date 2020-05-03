@@ -17,3 +17,9 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 import "bootstrap"
+
+document.addEventListener("turbolinks:load", () => {
+  $('.collapse').collapse({
+    toggle: false
+  })
+})
