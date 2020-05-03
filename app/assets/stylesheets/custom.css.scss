@@ -1,5 +1,15 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+footer {
+	bottom: 0;
+	height: 200px;
+	margin-top: 50px;
+}
+
+footer .container {
+	padding: 20px 10px;
+}
+
 #welcome {
 	background-image: url("test.jpeg");
 	background-size: cover;
@@ -28,15 +38,8 @@
 	background-color: #6f32a8;
 }
 
-footer {
-	height: 200px;
-	bottom: 0;
-	width: 100%;
-	margin-top: 50px;
-}
-
-footer .container {
-	padding: 20px 10px;
+#content {
+	min-height: 500px;
 }
 
 .card {
