@@ -6,4 +6,8 @@ class ProjectsController < ApplicationController
   def project2
 
   end
+
+  def project3
+
+  end
 end

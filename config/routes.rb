@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'project1', to: 'projects#project1'
   get 'project2', to: 'projects#project2'
+  get 'project3', to: 'projects#project3'
 end
