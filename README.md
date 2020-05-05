@@ -5,6 +5,7 @@
 ![](app/assets/images/preview.png)
 
 ## Heroku link:
+https://my-portfolio-test-portfolio.herokuapp.com
 
 ## Information:
 
@@ -12,4 +13,4 @@
 
 * Rails version: 5.2.4
 
-* Bootstrap version: 3.4.1
+* Bootstrap version: 4.4.1
