@@ -31,6 +31,11 @@ footer {
 	background-color: #6f32a8;
 }
 
+.materialize {
+	color: white;
+	background-color: #e66a9d;
+}
+
 .project-preview {
 	max-width: 100%;
 	height: auto;
@@ -40,9 +45,17 @@ footer {
 	color: black;
 }
 
+.card-body {
+	background-color: ghostwhite;
+}
+
 #welcome-img {
 	background-image: url("test.jpeg");
 	background-size: cover;
 	height: 500px;
 	color: white;
+}
+
+#about {
+	min-height: 500px;
 }
