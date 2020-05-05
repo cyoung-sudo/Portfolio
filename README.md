@@ -11,6 +11,6 @@ https://my-portfolio-test-portfolio.herokuapp.com
 
 * Ruby version: 2.6.3
 
-* Rails version: 5.2.4
+* Rails version: 6.0.2
 
 * Bootstrap version: 4.4.1
