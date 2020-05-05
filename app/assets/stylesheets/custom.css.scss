@@ -21,6 +21,10 @@ footer {
 	width: 16rem;
 }
 
+.card-body {
+	background-color: ghostwhite;
+}
+
 .rails {
 	color: white;
 	background-color: #c20e0e;
@@ -42,11 +46,7 @@ footer {
 }
 
 .footer-icon {
-	color: black;
-}
-
-.card-body {
-	background-color: ghostwhite;
+	color: white;
 }
 
 #welcome-img {
@@ -57,5 +57,5 @@ footer {
 }
 
 #about {
-	min-height: 500px;
+	min-height: 400px;
 }

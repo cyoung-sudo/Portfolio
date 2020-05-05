@@ -1,41 +1,35 @@
-<div class="container mt-3">
+<div class="container mt-5">
   <div class="row">
-    <div class="col-lg-6 col-12 py-3 px-5 align-self-center">
-      <h1 class="text-center bold">University App</h1>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempor, velit sit amet vestibulum condimentum, urna erat malesuada eros, nec sollicitudin diam sapien sit amet diam. Vestibulum ac metus ornare, semper arcu et, auctor nunc. Duis et urna eu ex pretium semper at ut lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-      <%= link_to '<i class="fa fa-github"></i> Github Repo'.html_safe, "https://github.com/cyoung-sudo/UniversityApp", class: "btn btn-secondary", target: :_blank %>
-      <%= link_to '<i class="fa fa-link"></i> App Link'.html_safe, "https://university-app-test-app.herokuapp.com", class: "btn btn-secondary", target: :_blank %>
+    <div class="col-lg-12">
+      <h1 class="text-center bold mb-0">University App</h1>
+      <div class="text-center">
+        <span class="badge rails">Rails</span>
+        <span class="badge materialize">MaterializeCSS</span>
+      </div>
     </div>
-
-    <div class="col-lg-6 col-12 p-3">
-      <%= image_tag("universityApp/preview.png", class: "img-fluid project-preview rounded border border-secondary") %>
+  </div>
+  <div class="row mt-3">
+    <div class="col-lg-12 p-0 shadow-lg rounded">
+      <%= image_tag("universityApp/preview.png", class: "img-fluid project-preview rounded border") %>
     </div>
   </div>
 </div>
 
-<div class="container mt-5">
-  <h2 class="text-center bold">Main Features</h2>
-  <hr>
-  <div class="row">
-    <div class="col-xl-3 col-lg-4 col-sm-6 col-12 my-3">
-      <div class="card mx-auto shadow-lg">
-        <%= image_tag("universityApp/account.png", class: "card-img-top") %>
-        <div class="card-body">
-          <h5 class="card-title">Create Account</h5>
-          <p class="card-text light">Users can create an account</p>
-        </div>
-      </div>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-6 col-12 mt-5">
+      <h2 class="text-center bold">Features <i class="fa fa-list"></i></h2>
+      <ul class="list-group shadow-lg text-center">
+        <li class="list-group-item"><h5>Create an account</h5></li>
+        <li class="list-group-item"><h5>Enroll in courses</h5></li>
+      </ul>
     </div>
-
-    <div class="col-xl-3 col-lg-4 col-sm-6 col-12 my-3">
-      <div class="card mx-auto shadow-lg">
-        <%= image_tag("universityApp/courses.png", class: "card-img-top") %>
-        <div class="card-body">
-          <h5 class="card-title">Course Enrollment</h5>
-          <p class="card-text light">Users with accounts can enroll in courses</p>
-        </div>
-      </div>
+    <div class="col-lg-6 col-12 mt-5">
+      <h2 class="text-center bold">Links <i class="fa fa-link"></i></h2>
+      <ul class="list-group shadow-lg text-center">
+        <li class="list-group-item"><h5><%= link_to "Github Repository", "https://github.com/cyoung-sudo/UniversityApp", target: :_blank %></h5></li>
+        <li class="list-group-item"><h5><%= link_to "Heroku Link", "https://university-app-test-app.herokuapp.com", target: :_blank %></h5></li>
+      </ul>
     </div>
   </div>
 </div>

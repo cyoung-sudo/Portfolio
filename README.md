@@ -1,24 +1,15 @@
-# README
+# Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Preview:
 
-Things you may want to cover:
+![](app/assets/images/preview.png)
 
-* Ruby version
+## Heroku link:
 
-* System dependencies
+## Information:
 
-* Configuration
+* Ruby version: 2.6.3
 
-* Database creation
+* Rails version: 5.2.4
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Bootstrap version: 3.4.1
