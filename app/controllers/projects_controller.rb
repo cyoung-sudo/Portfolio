@@ -10,4 +10,8 @@ class ProjectsController < ApplicationController
   def project3
 
   end
+
+  def project4
+
+  end
 end

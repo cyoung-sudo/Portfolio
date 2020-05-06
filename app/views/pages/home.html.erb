@@ -26,6 +26,21 @@
 
     <div class="col-xl-3 col-lg-4 col-sm-6 col-12 my-3">
       <div class="card mx-auto shadow-lg">
+        <%= image_tag("orangeChatroom/preview.png", class: "card-img-top") %>
+        <div class="card-body">
+          <h5 class="card-title">Orange Chatroom</h5>
+          <p class="card-text light">A chat app that allows users to sing-up and chat in real-time</p>
+          <div class="mb-4">
+            <span class="badge rails">Rails</span>
+            <span class="badge semantic">Semantic-UI</span>
+          </div>
+          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, project2_path, class: "btn btn-info" %>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xl-3 col-lg-4 col-sm-6 col-12 my-3">
+      <div class="card mx-auto shadow-lg">
         <%= image_tag("universityApp/preview.png", class: "card-img-top") %>
         <div class="card-body">
           <h5 class="card-title">University App</h5>
@@ -34,7 +49,7 @@
             <span class="badge rails">Rails</span>
             <span class="badge materialize">MaterializeCSS</span>
           </div>
-          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, project2_path, class: "btn btn-info" %>
+          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, project3_path, class: "btn btn-info" %>
         </div>
       </div>
     </div>
@@ -49,7 +64,7 @@
             <span class="badge rails">Rails</span>
             <span class="badge bootstrap">Bootstrap</span>
           </div>
-          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, project3_path, class: "btn btn-info" %>
+          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, project4_path, class: "btn btn-info" %>
         </div>
       </div>
     </div>
