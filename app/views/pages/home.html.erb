@@ -6,65 +6,25 @@
 </div>
 
 <div class="container mt-5">
-  <h2 class="text-center bold">Projects</h2>
+  <h2 class="text-center bold">Categories</h2>
   <hr>
   <div class="row">
     <div class="col-xl-3 col-lg-4 col-sm-6 col-12 my-3">
       <div class="card mx-auto shadow-lg">
-        <%= image_tag("orangeBlog/preview.png", class: "card-img-top") %>
+        <%= link_to image_tag("categories/rails.svg", class: "card-img-top"), rails_path %>
         <div class="card-body">
-          <h5 class="card-title">Orange Blog</h5>
-          <p class="card-text light">A blog that allows users to sign-up and post articles</p>
-          <div class="mb-4">
-            <span class="badge rails">Rails</span>
-            <span class="badge bootstrap">Bootstrap</span>
-          </div>
-          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, project1_path, class: "btn btn-info" %>
+          <h5 class="card-title">Ruby on Rails</h5>
+          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, rails_path, class: "btn btn-info" %>
         </div>
       </div>
     </div>
 
     <div class="col-xl-3 col-lg-4 col-sm-6 col-12 my-3">
       <div class="card mx-auto shadow-lg">
-        <%= image_tag("orangeChatroom/preview.png", class: "card-img-top") %>
+       <%= link_to image_tag("categories/javascript.svg", class: "card-img-top"), javascript_path %>
         <div class="card-body">
-          <h5 class="card-title">Orange Chatroom</h5>
-          <p class="card-text light">A chat app that allows users to sing-up and chat in real-time</p>
-          <div class="mb-4">
-            <span class="badge rails">Rails</span>
-            <span class="badge semantic">Semantic-UI</span>
-          </div>
-          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, project2_path, class: "btn btn-info" %>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-xl-3 col-lg-4 col-sm-6 col-12 my-3">
-      <div class="card mx-auto shadow-lg">
-        <%= image_tag("universityApp/preview.png", class: "card-img-top") %>
-        <div class="card-body">
-          <h5 class="card-title">University App</h5>
-          <p class="card-text light">An app that allows users to sign-up and enroll in courses</p>
-          <div class="mb-4">
-            <span class="badge rails">Rails</span>
-            <span class="badge materialize">MaterializeCSS</span>
-          </div>
-          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, project3_path, class: "btn btn-info" %>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-xl-3 col-lg-4 col-sm-6 col-12 my-3">
-      <div class="card mx-auto shadow-lg">
-        <%= image_tag("stockTracker/preview.png", class: "card-img-top") %>
-        <div class="card-body">
-          <h5 class="card-title">Stock Tracker</h5>
-          <p class="card-text light">An application that allows users to sign-up, track stocks, and follow friends</p>
-          <div class="mb-4">
-            <span class="badge rails">Rails</span>
-            <span class="badge bootstrap">Bootstrap</span>
-          </div>
-          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, project4_path, class: "btn btn-info" %>
+          <h5 class="card-title">Javascript</h5>
+          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, javascript_path, class: "btn btn-info" %>
         </div>
       </div>
     </div>
