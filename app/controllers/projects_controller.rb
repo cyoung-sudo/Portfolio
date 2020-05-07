@@ -14,4 +14,8 @@ class ProjectsController < ApplicationController
   def stockTracker
 
   end
+
+  def basicCalculator
+
+  end
 end

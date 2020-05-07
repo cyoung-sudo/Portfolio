@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get 'orangeChatroom', to: 'projects#orangeChatroom'
   get 'universityApp', to: 'projects#universityApp'
   get 'stockTracker', to: 'projects#stockTracker'
+  get 'basicCalculator', to: 'projects#basicCalculator'
 end

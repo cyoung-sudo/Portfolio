@@ -1,1 +1,19 @@
-<h1>JS</h1>
+<div class="container mt-5">
+  <h2 class="text-center bold">Javascript Projects</h2>
+  <hr>
+  <div class="row">
+    <div class="col-xl-3 col-lg-4 col-sm-6 col-12 my-3">
+      <div class="card mx-auto shadow-lg">
+        <%= image_tag("basicCalculator/preview.png", class: "card-img-top") %>
+        <div class="card-body">
+          <h5 class="card-title">Basic Calculator</h5>
+          <p class="card-text light">A basic calculator made with Javascript</p>
+          <div class="mb-4">
+            <span class="badge javascript">Javascript</span>
+          </div>
+          <%= link_to '<i class="fa fa-eye"></i> View'.html_safe, basicCalculator_path, class: "btn btn-info" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
