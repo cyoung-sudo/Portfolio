@@ -1,17 +1,17 @@
 class ProjectsController < ApplicationController
-  def project1
+  def orangeBlog
     
   end
 
-  def project2
+  def orangeChatroom
 
   end
 
-  def project3
+  def universityApp
 
   end
 
-  def project4
+  def stockTracker
 
   end
 end

@@ -6,8 +6,8 @@ Rails.application.routes.draw do
   get 'rails', to: 'categories#rails'
   get 'javascript', to: 'categories#javascript'
 
-  get 'project1', to: 'projects#project1'
-  get 'project2', to: 'projects#project2'
-  get 'project3', to: 'projects#project3'
-  get 'project4', to: 'projects#project4'
+  get 'orangeBlog', to: 'projects#orangeBlog'
+  get 'orangeChatroom', to: 'projects#orangeChatroom'
+  get 'universityApp', to: 'projects#universityApp'
+  get 'stockTracker', to: 'projects#stockTracker'
 end
